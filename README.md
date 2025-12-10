@@ -144,7 +144,7 @@ This will apply your “atlantis plan”. If this succeeds, you will see this ty
 
     15. To destroy resources, comment in the MR:
 
-To check the destroy plan: atlantis plan -d application/environments/dev -w default --destroy # After default, it is double dash then space then dash destroy
+To check the destroy plan: atlantis plan -d application/environments/dev -w default -- -destroy # After default, it is space, then double dash, then space, then single dash, destroy
 
 <img width="572" height="77" alt="image" src="https://github.com/user-attachments/assets/d20ec305-3fb5-4dc3-9998-d09506588c8d" />
 
